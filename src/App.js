@@ -4,12 +4,12 @@ import UseRefExample3 from "./components/UseRefExample3";
 import UseMemoExample from "./components/UseMemoExample";
 import UseCallbackExample from "./components/UseCallbackExample";
 import CustomLookExample1 from "./components/CustomLookExample1";
-
+import CustomHookExample2 from "./components/CustomHookExample2";
 
 function App() {
   return (
     <div className='container mt-5'>
-      <CustomLookExample1 />
+      <CustomHookExample2 />
     </div>
   )
 }
